@@ -1,0 +1,8 @@
+C:\Users\Joel\MTSU\CSCI_3037\OLAs\OLA7_LinqToList\OLA7_LinqToList\bin\Debug\csvDBData.txt
+C:\Users\Joel\MTSU\CSCI_3037\OLAs\OLA7_LinqToList\OLA7_LinqToList\bin\Debug\OLA7_LinqToList.exe.config
+C:\Users\Joel\MTSU\CSCI_3037\OLAs\OLA7_LinqToList\OLA7_LinqToList\bin\Debug\OLA7_LinqToList.exe
+C:\Users\Joel\MTSU\CSCI_3037\OLAs\OLA7_LinqToList\OLA7_LinqToList\bin\Debug\OLA7_LinqToList.pdb
+C:\Users\Joel\MTSU\CSCI_3037\OLAs\OLA7_LinqToList\OLA7_LinqToList\obj\Debug\OLA7_LinqToList.csproj.CoreCompileInputs.cache
+C:\Users\Joel\MTSU\CSCI_3037\OLAs\OLA7_LinqToList\OLA7_LinqToList\obj\Debug\OLA7_LinqToList.exe
+C:\Users\Joel\MTSU\CSCI_3037\OLAs\OLA7_LinqToList\OLA7_LinqToList\obj\Debug\OLA7_LinqToList.pdb
+C:\Users\Joel\MTSU\CSCI_3037\OLAs\OLA7_LinqToList\OLA7_LinqToList\obj\Debug\OLA7_LinqToList.csprojResolveAssemblyReference.cache

@@ -30,14 +30,35 @@ namespace OLA7_LinqToList
                 **/
 
                 // sort the students by GPA
+                // this uses LINQ
                 students.Sort((x, y) => x.gpa.CompareTo(y.gpa));
+
+                // remove duplicates
+                var distinctStudents = students.GroupBy(x => x.lastName).Select(y => y.First());
+
 
                 // print out the top 10 students in the list
                 // for (int i = 0; i < students.Count; i++)
+
+                Console.WriteLine("Student Name, Class, Earned Hours, GPA, CourseNumberAndGradeList, TotalCSCICreditHrs, CSCI GP");
+
+                // create iterator to limit output to 10 students
+                int i = 0;
+                foreach (Student student in distinctStudents)
+                {
+                    if (i < 10) { 
+                        Console.WriteLine(student.ToString());
+                    }
+
+                    i++;
+                }
+                /**
                 for (int i = 0; i < 9; i++)
                 {
-                    Console.WriteLine(students[i].ToString());
+                    // Console.WriteLine(students[i].ToString());
+                    Console.WriteLine(distinctStudents[i].ToString());
                 }
+                **/
 
 
             }
